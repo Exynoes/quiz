@@ -1,0 +1,29 @@
+
+ :root {    
+    --text-color-1: hsl(158 100% 23%);
+    --text-color-2:#fff;
+
+    --color-7: hsl(0, 0%, 0%);
+    --color-8: hsla(0, 0%, 0%, 0.58);
+
+    --background-color-1: hsl(144, 68%, 84%);
+    --background-color-2: hsl(21, 75%, 65%);
+    --background-color-3: hsl(190, 43%, 35%);
+    --background-color-4: hsl(19, 66%, 80%);
+    --background-color-icon:#000;
+
+    --background-text-color-1: hsl(164, 31%, 17%);
+
+    --ff-body: 'Inter', sans-serif;
+    --ff-heading: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-heading);
+    font-weight: 700;
+}
