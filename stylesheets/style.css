@@ -1,0 +1,144 @@
+
+@import url(reset.css);
+@import url(root.css);
+
+.color-1{
+    background-color: var(--background-color-1);
+    color: var(--background-text-color-1);
+}
+
+.color-1 button {
+    color: var(--background-text-color-1);
+}
+
+.color-2, .color-4{
+    color: var(--background-text-color-1);
+}
+
+.color-2 button, .color-4 button {
+    color: var(--background-text-color-1);
+}
+
+.color-3, .color-5, .color-6, .color-7 {
+    color: var(--text-color-2);
+}
+
+.color-3 button, .color-5 button, .color-6 button, .color-7 button {
+    color: var(--text-color-2);
+}
+
+.color-2{
+    background-color: var(--background-color-2);
+}
+
+.color-3 {
+    background-color: var(--background-color-3);
+}
+
+.color-4 {
+    background-color: var(--background-color-4);
+}
+
+.color-5, .color-6, .color-7{
+    background-color: var(--background-text-color-1);
+}
+
+.color-8 {
+    color: var(--text-color-1);
+}
+
+.color-9 {
+    color: var(--background-color-icon);
+}
+
+.background-button {
+    background-color: var(--background-color-icon);
+    color: var(--text-color-2);
+    border: 1px solid var(--background-color-icon);
+}
+
+/* je ne comprend pas ce qui se passe. Mais la class pour le texte en gras ne marche pas pour moi! */
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.logo {
+    width: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+.logo2 {
+    width: 30px;
+}
+
+.hamburger {
+    width: 32px;
+}
+
+button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid;
+    padding-inline: 12px;
+    padding-block: 5px;
+    font-weight: bold;
+    
+}
+
+.border-radius {
+    border-radius: 25px;
+}
+
+.ml-2 {
+    margin-left: 12px;
+}
+
+.ml-4 {
+    margin-left: 40px;
+}
+
+.pr-2 {
+    padding-right: 12px;
+}
+
+.mr-2{
+    margin-right: 12px;
+}
+
+main h1 {
+    font-size: 32px;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .custome-mt {
+        margin-top: 20%;
+    }
+    
+    .custome-mt-2 {
+        margin-top: 5%;
+    }
+    
+    .custome-mt-3 {
+        margin-top: 10%;
+    }
+
+    .mr-md-5 {
+        margin-right: 3rem;
+    }
+
+    .border-right{
+        border-right: 1px solid #2a2a2a;
+    }
+
+    .p-md-6 {
+        padding: 1.5rem;
+    }
+}
