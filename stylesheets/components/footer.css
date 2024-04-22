@@ -1,0 +1,66 @@
+footer ul {
+    padding: 0%;
+}
+
+footer a, footer p {
+    margin-block: 2%;
+}
+
+.info-starbucks a, footer p {
+    text-decoration: none;
+    color: var(--text-3);
+}
+
+.info-starbucks {
+    font-size: 14px;
+}
+
+.margin-logo {
+    color: var(--text-background-color-2);
+    margin-right: 1%;
+}
+
+.nav-policy{
+    gap: 2%;
+}
+
+.nav-policy a {
+    color: var(--text-background-color-2);
+    text-decoration: none;
+}
+
+.language {
+    color: var(--text-1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-starbucks ul {
+    padding: 0%;
+}
+
+.gap-info {
+    gap: 2%;
+}
+
+.logo-color {
+    color:var(--text-background-color-2);
+}
+
+footer nav h3, footer nav li {
+    font-size: 14px;
+    margin-block: 4%;
+}
+
+.margin-block {
+    margin-block: 5%;
+}
+
+.border-right {
+    padding-right: 2%;
+    border-right: 1px solid #AFAFAF;
+}
+
+.mobile-icon {
+    display: none;
+}

@@ -1,0 +1,73 @@
+@import url(root2.css);
+@import url(quickstart/quickstart.css);
+@import url(components/product.css);
+@import url(components/infomation.css);
+@import url(components/footer.css);
+@import url(components/header.css);
+@import url(components/site.css);
+
+@media (max-width: 36rem) {
+
+    .container {
+        max-width: 600px;
+        padding: 0%;
+        margin-block: 5%;
+    }
+
+    .header-nav {
+        margin-right: 0%;
+    }
+
+    .product-container {
+        max-width: 800px;
+        margin-inline: 0%;
+    }
+    .space-product{
+        margin-block: 0%;
+    }
+
+    .info-starbucks ul {
+        display: none;
+    }
+
+    footer.container, header .container {
+        margin-inline: 16px;
+    }
+
+    footer nav li {
+        margin-block: 3%;
+    }
+
+    .nav-policy-mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        width: 30px;
+    }
+
+    .border-right {
+        padding-right: 0;
+        border-right: 0px;
+    }
+
+    .mobile-icon {
+        display: block;
+        margin-left: auto;
+    }
+
+    .mobile-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

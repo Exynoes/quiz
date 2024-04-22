@@ -1,0 +1,17 @@
+:root {    
+
+    --text-1: hsl(158 100% 23%);
+    --background-color-1: hsl(144, 68%, 84%);
+    --background-color-2: hsl(21, 75%, 65%);
+    --background-color-3: hsl(190, 43%, 35%);
+    --background-color-4: hsl(19, 66%, 80%);
+    --text-background-color-1: hsl(164, 31%, 17%);
+    --text-background-color-2: hsl(0, 0%, 0%);
+    --text-background-color-3: hsla(0, 0%, 0%, 0.58);
+    --text-2: #ffffff;
+    --text-3: #808080;
+    --border-color: #808080;
+
+    --ff-body: 'Inter', sans-serif;
+    --ff-heading: 'Inter', sans-serif;
+}

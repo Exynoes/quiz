@@ -1,0 +1,46 @@
+.logo {
+    display: flex;
+    width: 50px;
+}
+
+.header-nav {
+    margin-right: 5%;
+}
+
+.position-item-header {
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+header a {
+    color: var(--text-background-color-2);
+    text-decoration: none;
+}
+
+header ul {
+    padding: 0%;
+}
+
+.gap2 {
+    gap: 5%;
+}
+
+.center {
+    align-items: center;
+}
+
+.marign-left {
+    margin-left: auto;
+}
+
+.margin-inline {
+    margin-inline: 10px;
+}
+
+.join-button {
+    background-color: var(--text-background-color-2);
+    color: var(--text-2);
+}
